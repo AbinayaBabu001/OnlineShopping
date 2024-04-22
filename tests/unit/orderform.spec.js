@@ -33,9 +33,9 @@ describe('Product Order Form Testing', () => {
 
     test('check product name value updating', async()=> {
         const textInput = wrapper.find('#productName')
-        await textInput.setValue('shan')
+        await textInput.setValue('Abi')
 
-        expect(wrapper.vm.product.name).toBe('shan')
+        expect(wrapper.vm.product.name).toBe('Abi')
     })
 
     test('check product quantity value updating', async()=> {
@@ -64,7 +64,7 @@ describe('Product Order Form Testing', () => {
 
         await wrapper.setData({ 
             product: {
-                name: 'shan'
+                name: 'Abi'
             }
         })
 
@@ -125,7 +125,7 @@ describe('Product Order Form Testing', () => {
     test('Check user allowed to submit form', async() => {
         await wrapper.setData({
             product: {
-                name: 'shan',
+                name: 'Abi',
                 quantity: '8'
             }
         })
@@ -139,7 +139,7 @@ describe('Product Order Form Testing', () => {
 
         await wrapper.setData({
             product: {
-                name: 'shan',
+                name: 'Abi',
                 quantity: '8'
             }
         })
