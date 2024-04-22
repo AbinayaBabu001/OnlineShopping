@@ -1,0 +1,126 @@
+.navbar-brand {
+    color: transparent linear-gradient(80deg, #FA5374 0%, #9E28B4 100%);
+}
+.bg-light {
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    z-index: 999;
+    box-shadow: 2px 5px 5px #ccc;
+}
+.nav-link:hover{
+    border: 1px solid white;
+}
+
+.container{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.title {
+    border-radius: 10px 10px 0 0;
+    background-color: #8F27AA !important;
+}
+
+.container h2 {
+    color: rgb(255 255 255);
+    padding: 18px;
+    margin-bottom: 0px;
+}
+
+.navbar button {
+    background: rgb(255 255 255) !important;
+}
+
+.content {
+    display: flex;
+    border: 1px solid #131921;
+    padding: 4%;    
+}
+
+.content form {
+    width: 100%;
+}
+
+.cls-required::after{
+    content: ' *';
+    color: red;
+}
+
+.b-toaster.b-toaster-top-center{
+    top: 240px!important;
+}
+
+.out-of-stock {
+    position: absolute;
+    top: -10px;
+    left: 3px;
+    width: 299px;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.navbar-brand {
+  float: none;
+}
+
+.navbar-center {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+    text-align: center;
+    margin: auto;
+    height:100%;
+}
+
+.cutom-collapse {
+    display: block !important;
+}
+.product-card{
+    background: #FFF4E9;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 10px 7px;
+    /* height: 250px; */
+    box-shadow: 2px 1px 5px #ccc;
+    border-radius: 10px;
+}
+.card-img-top{
+    border-radius: 10px;
+}
+.edit-product{
+    position: absolute;
+    top: 17px;
+    background-color: #f8f9fa;
+    width: 49px;
+    padding: 4px;
+    right: 12px;
+    border-radius: 45%;
+    border-color: #343a40;
+}
+.text-truncate {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.button-color{
+    background: #8F27AA ;
+    border-color: #8F27AA ;
+}
+.button-color:hover{
+    background: #8F27AA ;
+}
+.primary-colour{
+    color: #8F27AA
+}
+.product-wrapper{
+    margin-top: 100px !important;
+}
+.select{
+    border-radius: 5px;
+    border-color: #fff;
+    background-color: #fff;
+}
